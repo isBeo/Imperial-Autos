@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  width: 250px;
+  height: 500px;
+  box-shadow: 0 0 20px 1px rgba(255, 0, 0, 0.3);
+  margin:19px;
+  border-radius: 10px;
+  /* outline:2px solid green; */
+}
+.img{
+  width:100%;
+  
+}
+.card__details{
+  display: flex;
+  flex-direction: column;
+  gap:22px;
+  font-weight: bolder;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.card__details h3{
+  padding: 10px;
+  font-size: 1.5em;
+  text-shadow: 1px 2px red;
+}
+
+.hero{
+  background-image: url('../public/hero.png');
+  height: 50vh;
+  background-size: cover;
+  background-position: center right;
+  padding: 50px;
+  width: 100%;
+  /* outline:2px solid green; */
+  background-repeat: no-repeat;
+}
+.cta{
+  box-shadow: 0 0 12px 1px red inset ;
+  transition:all .4s ease-in;
+}
+.cta:hover{
+  
+  box-shadow: 0 0 12px 1px rgba(27, 75, 15, 0.894) inset ;
+}
+.mMenu>a{
+  font-size: 1.4emx;
+  margin-block:10px;
+  /* padding:10px; */
+  /* width: 100%; */
+  /* text-align: center; */
+  transition:all .2s ease-out;
+  font-weight: bolder;
+  display: block;
+  padding-inline:50px;
+  padding-block:10px;
+}
+.mMenu>a:hover{
+  
+  background-color: green;
+}
