@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { useState } from 'react';
-import buy from '../app/BuyandDrive/page'
+// import buy from '../app/BuyandDrive/page'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
