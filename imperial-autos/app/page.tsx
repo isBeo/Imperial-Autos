@@ -2,8 +2,8 @@ import React from 'react'
 import p from '../public/hero.png'
 import p1 from './logo.jpeg'
 import p2 from './logo.jpeg'
-import p3 from './logo.jpeg'
-import p4 from './logo.jpeg'
+// import p3 from './logo.jpeg'
+// import p4 from './logo.jpeg'
 import Image from 'next/image'
 import type { StaticImageData } from 'next/image';
 
